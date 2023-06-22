@@ -63,10 +63,7 @@ export const ChainSelector = ({ leftAlign }: ChainSelectorProps) => {
 
   const chains = useMemo(
     () =>
-      NETWORK_SELECTOR_CHAINS.filter((chain) => showTestnets || !TESTNET_CHAIN_IDS.has(chain)).sort((a) =>
-        walletSupportsChain.includes(a) ? -1 : 1
-      ),
-    [showTestnets, walletSupportsChain]
+      NETWORK_SELECTOR_CHAINS
   )
 
   const ref = useRef<HTMLDivElement>(null)
