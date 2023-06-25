@@ -435,7 +435,7 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
     '0x626547420b8C05ca4737377d7423C57773f77c3E',
     18,
     'WETH',
-    'Wrapped Etherrrrr'
+    'Wrapped Ether (Sepolia test)'
   ),
   [SupportedChainId.POLYGON]: new Token(
     SupportedChainId.POLYGON,
